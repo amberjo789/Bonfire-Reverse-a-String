@@ -1,0 +1,11 @@
+//test edit 1
+//test edit 2
+function reverseString(str) {
+  
+  //1.) split into array 2.) reverse 3.) join back into a string
+  var revStrArr = str.split("").reverse().join('');
+  str = revStrArr;
+  return str;
+}
+
+reverseString("hello");
